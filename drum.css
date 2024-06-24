@@ -1,0 +1,81 @@
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+h1{
+    font-weight:bolder;
+    font-size: 8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    color:whitesmoke;
+    text-shadow: 10px 0 black;
+    text-align: center;
+}
+
+.w{
+color: blue;
+background-image: url("tom1.png");
+}
+.a{
+    color: white;
+    background-image: url("kick.png");
+}
+.s{
+    color:chartreuse ;
+    background-image: url("tom3.png");
+}
+.d{
+    color: cornflowerblue;
+    background-image: url("snare.png");
+}
+.j{
+    color: #1a895b;
+    background-image: url("kick.png");
+}
+.k{
+    color: aqua;
+    background-image: url("tom4.png");
+}
+.l{
+    color: darkmagenta;
+    background-image: url("crash.png")
+}
+.p{
+    color: darkorange;
+    background-image: url("tom2.png");
+}
+.r{
+    color:fuchsia;
+    background-image: url("snare.png");
+}
+.t{
+    color:rgb(75, 223, 16);
+    background-image: url("tom1.png");
+}
+.pressed{
+    box-shadow: 0 2px 3px  #86d2b2;
+    opacity:0.44;
+}
+.set{
+    display: flex;
+    margin: 5% auto;
+    padding: 5%;
+}
+.drum{
+   outline: none;
+   font-size: 125px;
+   font-family: 'Georgia', cursive;
+   border: 8px solid #576487;
+   line-height: 2;
+   font-weight: 700;
+   color:rgb(107, 12, 185);
+   text-shadow: 5px 0  #1a895b;
+   border-radius: 10px;
+   display: inline-block;
+   width: 200px ;
+   height: 300px;
+   text-align: center;
+   margin: 5px;
+   background-color: rgb(238, 235, 231);
+}
